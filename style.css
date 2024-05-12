@@ -1,0 +1,41 @@
+@import url(./обнуление.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+   min-width: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.info {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+}
+.info__container {
+}
+.info__introduction {
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 12px;
+}
+.info__about {
+   margin-bottom: 10px;
+   line-height: 1.2;
+}
+.info__list {
+   display: flex;
+   gap: 25px;
+}
+.info__item {
+   color: #fb8500;
+}
+
